@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Deneme</title>
+</head>
+<body>
+    <h1>Kullanıcı Tanıma Formu</h1>
+    <fieldset>
+        <h3>Giriş Yap</h3>
+        <form action="" method="get">
+            <label for="Kullanıcı Adı">Kullanıcı Adı</label> 
+            <input autofocus required placeholder="Kullanıcı Adı" type="text" id="Kullanıcı Adı" name="Kullanıcı Adı"> <br> <br>
+            <label for="Şifre">Şifre</label>
+            <input placeholder="Şifre" required type="password" id="Şifre" name="Şifre"> <br> <br>
+            <label for="Doğum Tarihi">Doğum Tarihi</label>
+            <input required id="Doğum Tarihi" type="date"> <br> <br>
+            <label for="Email">Email</label>
+            <input required id="Email" type="email"> <br> <br>
+            <label> 
+                <input type="radio" name="cinsiyet" value="Erkek"> Erkek
+            </label>
+            <label>
+                <input type="radio" name="cinsiyet" value="Kadın"> Kadın
+            </label> 
+        
+    </fieldset>
+        <h3>Kullanılan Diller</h3>
+        <p> Kullandığınız front-end dilini seçiniz.</p>
+        <input required placeholder="Diller" list="Diller">
+            <datalist aria-placeholder="Diller" id="Diller">
+            <option value="HTML">
+            </option>
+            <option value="CSS">
+            </option>
+            <option value="JavaScript">
+            </option>
+        </datalist>
+        <br> <br>
+        
+        <fieldset>
+            <h3>Öneri ve Dilekleriniz için </h3>
+            <textarea aria-placeholder="Öneri ve dilekliriniz için" rows="20" cols="40"></textarea>
+        </fieldset>
+        <input type="submit" value="Gönder">
+        
+
+    </form>
+</body>
+</html>
