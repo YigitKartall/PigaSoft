@@ -1,0 +1,18 @@
+table,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+#customers th{
+    background-color:darksalmon;
+    color:bisque;
+}
+#customers tr:nth-child(even){
+    background-color:lightcoral;
+}
+#customers tr:nth-child(odd){
+    background-color:lightsalmon;
+}
+#customers tr:hover{
+    color:aliceblue;
+}

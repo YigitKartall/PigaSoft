@@ -1,0 +1,38 @@
+ul{
+    width:4px;
+    display: inline-block;
+    list-style-type: none;
+    width: 100%;
+    background-color: darkslategray;
+    text-align: center;
+}
+ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    
+
+
+}
+ul li:hover{
+    display: inline-block;
+    background-color: chocolate;
+    transition: 0.5s;
+
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    background-color: darkslategrey;
+    margin-left: -40px;
+    width: 150px;
+    margin-right: 20px;
+
+}
+i{
+    display: inline-block;
+    padding-right: 5px;
+}

@@ -1,0 +1,22 @@
+.kutu1{
+    background-image: url(van-goh_6.jpg);
+    background-size:cover;
+    background-position: center;
+    width: 500px;
+    height: 500px;
+    color:gold;
+    text-align: center;
+    border: 3px solid rgb(0, 183, 255);
+    position: absolute;
+    z-index: -1;
+    opacity: 50;
+}
+.kutu2{ 
+    background-image: url(van-goh_6.jpg);
+    background-size:cover;
+    background-position: center;
+    width: 500px;
+    height: 500px;
+    z-index: -1;
+    position: absolute;
+}
