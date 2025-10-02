@@ -1,0 +1,37 @@
+.buton:hover{
+    background-color: cornflowerblue;
+    transition: width 2s;
+    width: 200px;
+}
+.buton{
+    background-color:cornsilk;
+    width: 100px;
+
+}
+.buton:visited{
+    background-color: mediumaquamarine;
+    color: darkolivegreen;
+}
+.title:hover{
+    background-color:chocolate;
+    transition: width 2s;
+    width: 300px;
+}
+.title{
+    background-color: grey;
+    width: 200px;
+}
+
+
+
+.hoverDeneme:hover{
+    background-color:gold;
+    transition: width 2s;
+    width: 100%;
+    
+}
+.hoverDeneme{
+    background-color: darksalmon;
+    width: 200px;
+}
+

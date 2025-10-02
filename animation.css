@@ -1,0 +1,42 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color:whitesmoke;
+    position: relative;
+    animation-name: test;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count:infinite;
+}
+@keyframes test{
+    /* from{background-color: burlywood;}
+    to{background-color: darkgreen;} */
+
+    0% {
+        background-color: aquamarine;
+        left: 0;
+        top: 0;
+    }
+
+    25%{
+        background-color: aqua;
+        left: 200px;
+        top: 0px;
+    }
+    50%{
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background-color: royalblue;
+        left: 0px;
+        top: 200px;
+    }
+    100%{
+        background-color: darkblue;
+        left: 0px;
+        top: 0px;
+    }
+
+}
