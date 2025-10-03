@@ -1,0 +1,19 @@
+body{
+    background-color: goldenrod;
+}
+
+.container{
+    color: var(--mainColor);
+    background-color: azure;
+    paddding: 10px;
+}
+
+a{
+    color: goldenrod;
+
+}
+
+:root{
+    --mainColor: goldenrod;
+
+}

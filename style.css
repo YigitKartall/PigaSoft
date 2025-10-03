@@ -1,0 +1,17 @@
+ul {
+  background-color: lightseagreen;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+ul li {
+  background-color: coral;
+}
+ul li a {
+  display: block;
+  padding: 10px;
+}
+ul li a:hover {
+  background-color: antiquewhite;
+}/*# sourceMappingURL=style.css.map */
