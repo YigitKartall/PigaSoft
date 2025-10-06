@@ -1,0 +1,46 @@
+.container{ 
+    display: grid; 
+    grid-template-columns: repeat(5, minmax(80px, 1fr)); 
+    background-color:azure; 
+    margin: 0; 
+    border-color: white; 
+    padding: 10px; 
+    row-gap: 10px; 
+    column-gap: 10px; 
+    font-size: 20px; 
+    text-align: center; 
+    grid-auto-rows: 10px; 
+    height: 400px;
+    width: 500px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+
+
+.item_1{ 
+    background-color:rgb(252, 83, 83); 
+    border-radius: 10px ; 
+    grid-row: span 3;
+
+} 
+
+
+.item_2{ 
+    background-color: rgb(196, 35, 140); 
+    grid-row: span 6;
+    border-radius: 10px ; 
+}
+
+
+.item_3{ 
+    background-color:rgb(177, 74, 224); 
+    grid-row: span 9;
+    border-radius: 10px ; 
+}
+
+body{
+    background-color: black;
+    text-align: center;
+}
